@@ -1,0 +1,202 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px!important;
+}
+
+.menu-principal  {
+width: 100%;
+background-color: rgb(20, 20, 20);
+height: 60px;
+
+}
+
+main, .content {
+margin:  0 auto;
+width: 980px;
+position: relative;
+
+}
+
+.logo{
+    float: left;
+padding: 16px;
+width: 70%;
+}
+
+.redes-sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+}
+
+.redes-sociais {
+    width: 25%;
+    float: right;
+
+}
+
+.header-2{
+background-color: rgb(255, 251, 246);
+width: 980px;
+margin: 0 auto;
+padding: 16px;
+}
+
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+
+    
+}
+.menu ul li {
+    display: inline-block;
+    color: cornsilk;
+    margin-left: 15px;
+    height: 50px;
+}
+.menu ul li:hover{
+    border-bottom: 2px solid #00bac6;
+
+}
+
+.menu ul li a:hover {
+  color: #00bac6;
+ 
+}
+.menu ul li a {
+    color: rgb(10, 10, 9);
+    text-decoration: cornsilk;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.busca{
+    width: 20%;
+    float: right;
+}
+
+.busca input {
+    background-image: url(../image/pesquisa.png);
+    background-repeat: no-repeat;
+    height: 27px;
+    padding: 1px;
+    width: 190px;
+    margin-top: 9px;
+    background-position: 96%;
+    border: 1px solid #d6d6d6;
+   
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../image/anterior.png);
+    top: 41%;
+    left: 3%;
+    cursor: pointer;
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../image/proximo.png);
+    top: 41%;
+    right: 3%;
+    cursor: pointer;
+}
+
+.slide-principal{
+    width: 100%!important;
+}
+
+ul.slick-dots li{
+    font-size: 0px;
+    border: 3px solid #ffff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  
+}
+ul.slick-docs li {
+    background-color: #00bac6;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque strong {
+    color: #646464;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size:  30px;
+    color: #818181;
+}
+
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;
+    
+}
+
+.col-3 {
+padding-left: 55px;  
+padding-right: 24px;  
+width: 25.0%;
+float: left;
+position: relative;
+color: black;
+
+}
+
+.bloco-texto {
+
+margin-top: 3em;    
+
+}
+
+.h3 {
+font-weight: normal!important;    
+}
+
+.col-4 {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.col-4 img {
+    margin: 90 auto;
+    padding-top: 20em;
+    vertical-align: middle;
+}
